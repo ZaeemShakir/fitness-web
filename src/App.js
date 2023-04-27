@@ -8,7 +8,7 @@ import ExerciseDetail from "./Pages/ExerciseDetail";
 import Footer from "./Components/Footer";
 const App = () => {
   return (
-    <Box>
+    <Box  width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
       <Navbar />
       <Routes width="4000px" sx={{width:{xl:'1488px',m:'auto'}}}>
         <Route path="/" element={<Home />} />
